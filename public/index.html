@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<div class="parent">
+
+
+<div class="child">
+
+<!-- header and search -->
+<div class="container text-center">
+  <h1 style="text-shadow:1px 1px 10px #29293d;">Local Weather</h1>
+  <h4 class="pull-left">Search with a city name</h4>
+
+  <!-- <div class=""> -->
+    <form class="form">
+      <input id="search" placeholder="Vilnius">
+      <button class="button" type="submit">Search</button>
+    </form>
+  <!-- </div> -->
+</div>
+
+<div class="main-content">
+<div class="weather-data-container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-6">
+          <div class="clockDisplay-container">
+            <p id="dateDisplay"></p>
+            <h3 id="clockDisplay"></h3>
+          </div>
+        </div><!---end of col-xs-12-->
+        <div class="col-xs-12 col-md-6 col-lg-6">
+          <div class="curLocationDisp-container">
+            <h3 id="currentCountyDisplay">Country</h3>
+            <h3 id="curLocationDisplay">City</h3>
+          </div>
+        </div><!---end of col-xs-12-->
+      </div><!---end row 1--->
+
+      <div class="row text-center">
+        <div class="col-xs-4 col-lg-4">
+          <div>
+            <h4 class="disp-label">Temp</h4>
+            <p id="tempDisplay">N/A</p>
+          </div>
+        </div><!---end of col-xs-12-->
+        <div class="col-xs-4 col-md-4">
+          <div>
+            <h4 class="disp-label">Humidity</h4>
+            <p id="humidDisplay">N/A</p>
+          </div>
+        </div><!---end of col-xs-12-->
+        <div class="col-xs-4 col-md-4">
+          <div>
+            <h4 class="disp-label">Wind</h4>
+            <p id="windDisplay">N/A</p>
+          </div>
+        </div><!---end of col-xs-12-->
+
+      </div><!---end row 1--->
+
+    </div><!--end weather-data-container-->
+
+  </div><!--end main-content-->
+
+</div><!--end of child-->
+</div><!--end of parent-->
+
+<script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
